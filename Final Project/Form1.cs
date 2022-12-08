@@ -41,14 +41,14 @@ namespace Final_Project
         {
         }
 
-        double totalPrice = 0;
-        double iceCreamCost = 2;
-        double saucePrice = .5;
-        double topingPrice = .75;
+        const double totalPrice = 0;
+        const double iceCreamCost = 2;
+        const double saucePrice = .5;
+        const double topingPrice = .75;
         int topingCount = 0;
         int sauceCount = 0;
-        string sauceWarn = "Maximum Sauce Reached";
-        string toppingWarn = "Max Toppings Reached";
+        const string sauceWarn = "Maximum Sauce Reached";
+        const string toppingWarn = "Max Toppings Reached";
 
 
         private void button1_Click_1(object sender, EventArgs e)
